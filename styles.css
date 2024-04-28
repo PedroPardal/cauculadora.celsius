@@ -1,0 +1,133 @@
+
+#cabeçalho {
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    font-size: 2em;
+    text-align: center;
+    text-decoration: dashed;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family:inherit;
+    margin-bottom: 20px;
+    
+  }
+  
+  #cabeçalho:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+#contador{
+    padding-top: 20px;
+    background-color: aliceblue;
+    font-size: 8em;
+    display:block;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    
+}
+.botoes{
+   padding: 10px 20px;    
+   color: rgb(255, 255, 255);
+   border-radius: 5px;
+   font-size: 1em; 
+   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+   font-family:Arial, Helvetica, sans-serif;
+   animation: up 1s;
+   width: 130px;
+  
+    
+}
+.botoes:hover{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+
+}
+#graus{
+    text-align: center;
+    align-items: center;
+}
+#containerbotao{
+    text-align: center;
+}
+#inputtemp {
+    font-size: 2em;
+    display: absolute;
+}
+#graus{
+    display: flexbox;
+    width: 200px; 
+    padding: 10px;
+    border-radius: 5px;
+    border: 10px solid #5f274e;
+    padding-bottom: 250;
+    margin:10px
+}
+#submit{
+  font-size: 1.3em;
+  display: flexbox;
+  margin:-6px;
+  margin-bottom: -100px;
+  padding-bottom: 7.3px;
+  background-color: #08d108;
+  animation: up 1s;
+  border-radius:  5px;
+  width: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease
+  
+}
+body{ 
+    background: linear-gradient(45deg,#30cfd0,#fee140,#3ecbdd);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;}
+      
+ 
+.caixa {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(122, 20, 20, 0.1);
+    max-width: 500px; 
+    margin: 0 auto; 
+    animation: slideUp 1.5s ease forwards;
+    position: relative;
+}
+
+@keyframes up {
+    0%{
+     width: 0px;
+    }
+    100%
+}
+@keyframes slideUp {
+    from {
+      top: 500px; 
+    }
+    to {
+      top: 0; 
+    }
+  }
+  #submit:hover{
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    
+  }
+.inputtemp{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: #16191f;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100 50%;
+    }
+    100%{
+        background-position: 0 50% ;
+    }    
+}
