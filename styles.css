@@ -1,6 +1,6 @@
 
 #cabeçalho {
-    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    background-image: linear-gradient(to left, #d8d1d1 0%, #f0efeb 100%);
     font-size: 2em;
     text-align: center;
     text-decoration: dashed;
@@ -33,7 +33,7 @@
    color: rgb(255, 255, 255);
    border-radius: 5px;
    font-size: 1em; 
-   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+   background-image: linear-gradient(to top, #7b8585 0%, #b3a5c4 100%);
    font-family:Arial, Helvetica, sans-serif;
    animation: up 1s;
    width: 130px;
@@ -63,13 +63,13 @@
     width: 200px; 
     padding: 10px;
     border-radius: 5px;
-    border: 10px solid #5f274e;
+    border: 10px solid #161516;
     padding-bottom: 250;
     margin:10px
 }
 #submit{
   font-size: 1.3em;
-  display: flexbox;
+  display: absolute;
   margin:-6px;
   margin-bottom: -100px;
   padding-bottom: 7.3px;
@@ -81,13 +81,13 @@
   
 }
 body{ 
-    background: linear-gradient(45deg,#30cfd0,#fee140,#3ecbdd);
+    background: linear-gradient(45deg,#929696,#1f1e1d,#a8a8a8);
     background-size: 300% 300%;
-    animation: color 12s ease-in-out infinite;}
+ }
       
  
 .caixa {
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-image: linear-gradient(120deg, #a5a1a1 0%, #7e7e7e 100%);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(122, 20, 20, 0.1);
@@ -95,6 +95,7 @@ body{
     margin: 0 auto; 
     animation: slideUp 1.5s ease forwards;
     position: relative;
+    display: flexbox;
 }
 
 @keyframes up {
